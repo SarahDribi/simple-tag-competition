@@ -164,9 +164,7 @@ jobs:
             
             ### Scores
             
-            | Agent Type | Score |
-            |------------|-------|
-            |   Predator | ${parseFloat(predatorScore).toFixed(4)} |
+            ${parseFloat(predatorScore).toFixed(4)}
             
             ### Details
             - **Episodes:** 500
@@ -175,11 +173,11 @@ jobs:
             
             ### Next Steps
             
-            ✅ Your submission has been evaluated and added to the leaderboard!
+            - Your submission has been evaluated and added to the leaderboard!
             
-            📊 Check the [live leaderboard](https://${context.repo.owner}.github.io/${context.repo.repo}/) to see your ranking.
+            - Check the [live leaderboard](https://${context.repo.owner}.github.io/${context.repo.repo}/) to see your ranking.
             
-            🚀 Want to improve your score? Submit a new PR with an updated agent!
+            - Want to improve your score? Submit a new PR with an updated agent!
             
             **Note:** This PR will not be merged. Your score has been recorded on the main branch automatically.
             
